@@ -1,19 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechWave</title>
-</head>
-<body>
-    <header>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/4f8bc4eccc.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- tailwind  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <style type="text/tailwindcss">
+      @theme {
+       
+        --font-inter: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-inter">
+    <header class="bg-[#1A0B2EFF]">
+        <!-- navbar -->
+        <div class="max-w-7xl mx-auto px-8 lg:px-28">
+            <nav class="flex justify-between items-center my-0 lg:my4 text-white">
+                <h3 class="text-3xl font-black">Tech<span class="text-transparent bg-clip-text bg-linear-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">Wave</span></h3>
+                <ul class="flex gap-2.5 collapse lg:visible">
+                    <li>About</li>
+                    <li>Episodes</li>
+                    <li>Host</li>
+                </ul>
+                <button class="lg:-mr-4 hidden lg:block">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="block  lg:hidden ">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <!-- banner -->
+             
+        </div>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
-</body>
+  </body>
 </html>
