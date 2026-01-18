@@ -21,36 +21,42 @@
 
     <style type="text/tailwindcss">
       @theme {
-       
         --font-inter: "Inter", sans-serif;
       }
     </style>
   </head>
   <body class="font-inter">
-    <header class="bg-[#1A0B2EFF]">
-        <!-- navbar -->
-        <div class="max-w-7xl mx-auto px-8 lg:px-28">
-            <nav class="flex justify-between items-center my-0 lg:my4 text-white">
-                <h3 class="text-3xl font-black">Tech<span class="text-transparent bg-clip-text bg-linear-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">Wave</span></h3>
-                <ul class="flex gap-2.5 collapse lg:visible">
-                    <li>About</li>
-                    <li>Episodes</li>
-                    <li>Host</li>
-                </ul>
-                <button class="lg:-mr-4 hidden lg:block">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-                <div class="block  lg:hidden ">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </nav>
-            <!-- banner -->
-             
+    <header class="">
+      <!-- navbar -->
+      <div class="bg-[#1A0B2EFF] pt-4">
+        <nav class="max-w-7xl mx-auto px-8 lg:px-28 flex justify-between items-center my-0 lg:my4 text-white cursor-pointer">
+          <h3 class="text-3xl font-black">
+            Tech<span
+              class="text-transparent bg-clip-text bg-linear-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8]"
+              >Wave</span
+            >
+          </h3>
+          <ul class="flex gap-8 collapse lg:visible font-medium">
+            <li class="hover:bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-4 py-3 rounded-full font-semibold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">About</li>
+            <li class="hover:bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-4 py-3 rounded-full font-semibold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Episodes</li>
+            <li class="hover:bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-4 py-3 rounded-full font-semibold transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">Host</li>
+          </ul>
+          <button class="hidden lg:block bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-4 py-3 rounded-full font-semibold transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+            Subscribe <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <div class="block lg:hidden">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+    </div>
+    <!-- banner -->
+      <section class="h-[700px] bg-[url(./assets/hero-bg.png)] bg-no-repeat bg-center bg-cover flex justify-center items-center">
+        <div class="bg-[url(./assets/hero-circle.png)] w-[300px]  h-[300px] bg-no-repeat bg-center bg-cover flex items-center justify-center -mt-44">
+            <img src="./assets/microphone.png" alt="">
         </div>
+      </section>
     </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
