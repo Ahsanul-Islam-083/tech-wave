@@ -28,7 +28,7 @@
   <body class="font-inter">
     <header class="">
       <!-- navbar -->
-      <div class="bg-[#1A0B2EFF] pt-4">
+      <div class="bg-[#1A0B2EFF] pt-4 border-b border-gray-700 lg:border-none">
         <nav class="max-w-7xl mx-auto px-8 lg:px-28 flex justify-between items-center my-0 lg:my4 text-white cursor-pointer">
           <h3 class="text-3xl font-black">
             Tech<span
@@ -51,12 +51,25 @@
     </div>
     <!-- banner -->
       <section class="h-[700px] bg-[url(./assets/hero-bg.png)] bg-no-repeat bg-center bg-cover flex justify-center items-center">
-        <div class="bg-[url(./assets/hero-circle.png)] w-[300px]  h-[300px] bg-no-repeat bg-center bg-cover flex items-center justify-center -mt-44">
-            <img src="./assets/microphone.png" alt="">
+        <div class="flex flex-col items-center gap-10">
+            <div class="bg-[url(./assets/hero-circle.png)] w-[300px]  h-[300px] bg-no-repeat bg-center bg-cover flex items-center justify-center mb-4 lg:mb-10 relative">
+                <img src="./assets/microphone.png" alt="">
+                <button class="bg-green-500 py-2 px-4 rounded-full font-semibold text-lg absolute top-0 right-0">NEW</button>
+            </div>
+            <div class="space-y-6 text-center">
+                <h2 class="text-6xl font-extrabold text-white">TechWave</h2>
+                <p class="text-white w-[400px] lg:w-full">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class="space-x-2">
+                    <button class="bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-4 py-3 rounded-full font-semibold transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 text-white"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
+                    <button class="text-green-500 border-2 border-green-500 px-4 py-3 rounded-full font-semibold transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+                </div>
+            </div>
         </div>
       </section>
     </header>
-    <main></main>
+    <main>
+        
+    </main>
     <footer></footer>
   </body>
 </html>
