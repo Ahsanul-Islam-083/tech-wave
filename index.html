@@ -68,9 +68,9 @@
       </div>
       <!-- banner -->
       <section
-        class="h-[700px] bg-[url(./assets/hero-bg.png)] bg-no-repeat bg-center bg-cover flex justify-center items-center"
+        class="bg-[url(./assets/hero-bg.png)] bg-no-repeat bg-center bg-cover flex justify-center items-center"
       >
-        <div class="flex flex-col items-center gap-10">
+        <div class="flex flex-col items-center gap-10 my-28">
           <div
             class="bg-[url(./assets/hero-circle.png)] w-[300px] h-[300px] bg-no-repeat bg-center bg-cover flex items-center justify-center mb-4 lg:mb-10 relative"
           >
@@ -356,7 +356,9 @@
           <h3 class="text-5xl font-bold text-white text-center mb-10">
             Meet The Host
           </h3>
-          <div class="bg-[#2C0E3A] rounded-3xl flex flex-col lg:flex-row items-center gap-6 p-10">
+          <div
+            class="bg-[#2C0E3A] rounded-3xl flex flex-col lg:flex-row items-center gap-6 p-10"
+          >
             <img src="./assets/host.png" alt="" />
             <div class="space-y-4 text-center md:text-start lg:text-start">
               <h4 class="text-white text-3xl font-bold">Alex Kumar</h4>
@@ -367,17 +369,27 @@
                 shares insights from industry leaders and practical advice for
                 anyone looking to grow in tech.
               </p>
-              <div class="flex gap-2 justify-center md:justify-start lg:justify-start">
-                <div class="border border-purple-900 p-3 rounded-full cursor-pointer transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+              <div
+                class="flex gap-2 justify-center md:justify-start lg:justify-start"
+              >
+                <div
+                  class="border border-purple-900 p-3 rounded-full cursor-pointer transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+                >
                   <img src="./assets/linkedin.png" alt="" />
                 </div>
-                <div class="border border-purple-900 p-3 rounded-full cursor-pointer transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div
+                  class="border border-purple-900 p-3 rounded-full cursor-pointer transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+                >
                   <img src="./assets/x.png" alt="" />
                 </div>
-                <div class="border border-purple-900 p-3 rounded-full cursor-pointer transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div
+                  class="border border-purple-900 p-3 rounded-full cursor-pointer transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+                >
                   <img src="./assets/instagram.png" alt="" />
                 </div>
-                <div class="border border-purple-900 p-3 rounded-full cursor-pointer transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                <div
+                  class="border border-purple-900 p-3 rounded-full cursor-pointer transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
+                >
                   <img src="./assets/youtube.png" alt="" />
                 </div>
               </div>
@@ -386,6 +398,43 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    <footer
+      class="bg-[url(./assets/footer-bg.png)] bg-no-repeat bg-cover bg-center"
+    >
+      <div class="max-w-7xl mx-auto px-8 lg:px-28 py-10 lg:py-28">
+        <h2 class="text-6xl font-black text-white text-center">
+          Tech<span
+            class="text-transparent bg-clip-text bg-linear-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8]"
+            >Wave</span
+          >
+        </h2>
+        <div class="flex justify-center mt-8">
+          <div
+            class="grid grid-cols-2 grid-rows-2 gap-4 lg:flex lg:gap-10 lg:items-center"
+          >
+            <div class="flex items-center gap-2.5 cursor-pointer">
+              <img src="./assets/spotify.png" alt="" />
+              <p class="text-gray-300 font-medium">Spotify</p>
+            </div>
+            <div class="flex items-center gap-2.5 cursor-pointer">
+              <img src="./assets/apple-podcast.png" alt="" />
+              <p class="text-gray-300 font-medium">Apple Podcasts</p>
+            </div>
+            <div class="flex items-center gap-2.5 cursor-pointer">
+              <img src="./assets/youtube-podcast.png" alt="" />
+              <p class="text-gray-300 font-medium">YouTube</p>
+            </div>
+            <div class="flex items-center gap-2.5 cursor-pointer">
+              <img src="./assets/twitter.png" alt="" />
+              <p class="text-gray-300 font-medium">Twitter</p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-8">
+          <p class="text-gray-300 text-center">© 2026 TechWave Podcast. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
